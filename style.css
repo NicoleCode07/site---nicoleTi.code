@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: black;
+    max-height: 100%;
+}
+
+#cabecalho{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(19, 17, 17);
+}
+
+.conteudo-cabecalho{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 17px;
+    cursor: pointer;
+}
+
+.area-logo{
+    display: flex;
+    margin-left: 10px;
+    position: relative;
+    bottom: 5px;
+}
+
+.area-logo span{
+    color: #6113aa;
+}
+
+nav{
+    display: flex;
+    padding: 5px;
+}
+
+nav a{
+    background-color:  rgb(19, 17, 17);
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin-right: 10px;
+    display: flex;
+    line-height: 0.10px;
+    margin-bottom: 6px;
+}
+
+nav a:hover{
+    color: #6113aa;
+    background-color: rgb(41, 41, 41);
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+nav input{
+    background-color: white;
+    width: 180px;
+    height: 23px;
+    border: none;
+    border-radius: 5px;
+    margin-right: -28px;
+    margin-top: 5px;
+    border: 2px solid #6113aa;
+    box-shadow: 2px 2px 1px 0px;
+    padding-left: 5px;
+    outline: #6113aa;
+}
+
+nav label img{
+    height: 20px;
+    width: 20px;
+    margin-top: 6px;
+    padding-right: 4px;
+    margin-right: 3px;
+}
+
+main{
+    display: flex;
+    background-image: url('img/melhor2.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    background-color: black;
+}
+
+.section1{
+    font-size: 1.4em;
+    color: white;
+    position: relative;
+    top: 140px;
+    left: 87px;
+    text-align: center;
+    max-width: 600px;
+    padding: 10px;
+}
+
+.cor-span{
+   color: #340461;
+}
+
+.botao{
+    background-color: #340461;
+    color: white;
+    display: inline;
+    position: relative;
+    top: 25px;
+    max-width: 200px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px  black;
+}
+
+.botao:hover{
+    background-color: #0b0114;
+    box-shadow: 4px 4px 4px  black;
+}
+
+.section2{
+    background-color: black;
+    width: 520px;
+    height: 470px;
+    position: relative;
+    top: 60px;
+    left: 130px;
+    border: 5px;
+    border-color: #340461;
+    box-shadow: 10px 10px 10px 10px;
+    border-radius: 30px;
+    clear: both;
+    cursor: pointer;
+}
+
+.titulo{
+    color: white;
+    text-decoration: underline 2px #340461;
+    font-size: 2.6em;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 44px;
+}
+
+.section2 form{
+    margin-bottom: 30px;
+    position: relative;
+    left: 10px;
+}
+
+form input{
+    width: 300px;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid #340461;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 1px 1px 1px 1px;
+    margin: 10px 15px 20px 25px;
+    color: white;
+    padding-left: 7px;
+}
+
+.input1 label{
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    text-transform: capitalize;
+    transition: top .3s;
+    font-size: 19px;
+    font-weight: 100;
+}
+
+.input2 label{
+    color: white;
+    position: relative;
+    top: -0.2px;
+    right: 314px;
+    text-transform: capitalize;
+    transition: top .3s;
+    font-size: 19px;
+    font-weight: 100;
+}
+
+.input3 label{
+    color: white;
+    position: relative;
+    top: -0.2px;
+    right: 314px;
+    text-transform: capitalize;
+    transition: top .3s;
+    font-size: 19px;
+    font-weight: 100;
+}
+
+form input:focus ~ .l1{
+  top: -3px;
+}
+
+form input:focus ~ .l2{
+  top: -20px;
+}
+
+form input:focus ~ .l3{
+  top: -20px;
+}
+
+button{
+    margin-left: 140px;
+    display: block;
+    width: 90px;
+    margin-top: 10px;
+    background-color: #6113aa;
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #340461;
+    box-shadow: 1px 1px 1px 0;
+}
+
+footer{
+    max-height: 100px;
+}
+
+footer h3{
+    color: white;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    text-decoration: overline;
+    font-size: 0.8em;
+}
+
+
+footer p{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    padding-bottom: 7px;
+}
